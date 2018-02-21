@@ -1,9 +1,9 @@
 {
-    "description": "A MongoDB datasource and data mapper for CakePHP 3.0",
     "name": "neovg/cake-mongo",
+    "description": "A MongoDB datasource and data mapper for CakePHP 3.5",
     "type": "cakephp-plugin",
     "require": {
-        "cakephp/cakephp": "~3.1",
+        "cakephp/cakephp": "^3.5",
         "mongodb/mongodb": "^1.1"
     },
     "require-dev": {
