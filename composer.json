@@ -1,6 +1,6 @@
 {
-    "name": "dilab/cake-mongo",
     "description": "A MongoDB datasource and data mapper for CakePHP 3.0",
+    "name": "neovg/cake-mongo",
     "type": "cakephp-plugin",
     "require": {
         "cakephp/cakephp": "~3.1",
