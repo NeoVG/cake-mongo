@@ -46,7 +46,7 @@ class ResultSet extends IteratorIterator implements Countable, JsonSerializable
     {
         $this->cursor = $cursor;
 
-        $repository = $query->repository();
+        $repository = $query->getRepository();
 
         $this->entityClass = $repository->entityClass();
 

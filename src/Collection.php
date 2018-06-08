@@ -166,7 +166,7 @@ class Collection implements RepositoryInterface, EventListenerInterface, EventDi
 
         return $this->_name;
     }
-    
+
     /**
 	 * Sets the type name / alias.
 	 *
@@ -490,7 +490,7 @@ class Collection implements RepositoryInterface, EventListenerInterface, EventDi
         if ($event->isStopped()) {
             return $event->result;
         }
-        if ($entity->errors()) {
+        if ($entity->getErrors()) {
             return false;
         }
 
